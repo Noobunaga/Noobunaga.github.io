@@ -7,7 +7,7 @@ body {
 
 .exp-header {
   text-align: center;
-  test-transform: uppercase;
+  text-transform: uppercase;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: rgba(0,0,0, 0.1)
