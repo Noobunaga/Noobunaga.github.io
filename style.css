@@ -78,6 +78,60 @@ p {
 .grid {
 	display:flex;
 }
+ */
+
+body {
+	font-size:1.2rem;
+	padding:2em;
+  font-family: sans-serif;
+	background-color:#68a8d8;
+	background-image: 
+		linear-gradient(
+			45deg, 
+			#80d890 25%, 
+			transparent 25%, 
+			transparent 75%, 
+			#80d890 75%
+		), 
+		linear-gradient(
+			45deg, 
+			#80d890 25%, 
+			transparent 25%, 
+			transparent 75%, 
+			#80d890 75%
+		);
+  background-size: 60px 60px;
+	background-position: 0 0, 30px 30px;
+  animation: slide 4s infinite linear;
+}
+
+@keyframes slide {
+  from {
+	background-position: 0 0, 30px 30px;
+  }
+
+  to {
+	background-position: 0 0, -30px -30px;
+  }
+}
+
+main {
+	max-width:600px;
+	margin:auto;
+}
+
+.right {
+	text-align:right;
+    max-width: 300px;
+}
+
+p {
+	margin-bottom:0;
+}
+
+.grid {
+	display:flex;
+}
 
 .grid.between {
 	justify-content:space-between;
@@ -117,11 +171,6 @@ p {
 	display:block;
 }
 
-.box.fuller {
-	max-width: 32em;
-	margin-top:2em;
-	display:block;
-}
 
 /* BUTTONS */
 button {
