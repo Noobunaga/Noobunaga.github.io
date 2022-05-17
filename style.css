@@ -47,6 +47,9 @@ p {
 	margin-bottom:0;
 }
 
+li{
+  margin:10px 0;
+}
 .grid {
 	display:flex;
 }
